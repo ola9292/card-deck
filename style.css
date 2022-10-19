@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/table.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100vh;
+    color: white;
+   
+}
+button{
+    background: yellow;
+    border: none;
+    cursor: pointer;
+}
+.draw-btn{
+    padding: 20px;
+}
+.card-btn{
+    align-self: flex-start;
+    margin-bottom: 0;
+}
+
+.deck-img{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: calc(120px * 5 / 7);
+    margin: 0 auto;
+}
+.deck{
+   margin-bottom: 40px;
+}
+.card{
+    height: 100%;;
+    width: 100%;   
+}
+.winner{
+    text-align: center;
+}
+.remaining-cards{
+    text-align: center;
+}
+.disabled{
+    color: grey;
+    background-color: rgb(205, 202, 202);
+    cursor: not-allowed;
+}
+#computerScore{
+    text-align: center;
+}
+#playerScore{
+    text-align: center;
+}
